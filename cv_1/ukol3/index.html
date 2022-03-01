@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.JS"></script>
+</head>
+<body>
+    <select name="auto" id="auto" onchange="autoVybr()">
+        <option value="traktor">traktor</option>
+        <option value="skoda">škoda</option>
+        <option value="BMW">BMW</option>
+        <option value="kolo">kolo</option>
+    </select>
+    <br>
+město
+    <input type="number" placeholder="km" id="vstM1" onchange="zmen()">
+    <input type="number" placeholder="l/100" id="vstM2" onchange="zmen()">
+    <input type="number" placeholder="cena paliva" id="vstM3" onchange="zmen()">
+    <br>
+dálnice
+    <input type="number" placeholder="km" id="vstD1" onchange="zmen()">
+    <input type="number" placeholder="l/100" id="vstD2" onchange="zmen()">
+    <br>
+okres
+    <input type="number" placeholder="km" id="vstO1" onchange="zmen()">
+    <input type="number" placeholder="l/100" id="vstO2" onchange="zmen()">
+    <br>
+    <p id="prum">průměrná cena</p><br>
+    <p id="cena">spotřebovcáno litrů</p><br>
+    <p id="cenaCelk">cena cesty</p><br>
+
+</body>
+</html>
