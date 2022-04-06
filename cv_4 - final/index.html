@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button onclick="galerka.prev()">předchozí</button>
+        <img src="images/1.jpg" alt = "Computer Man" id = "amongus" onclick="mongus(event)">
+        <button onclick="galerka.next()">následující</button>
+        <p id="desc">1</p>
+        <div>
+            <label for="urlText">Popisek</label>
+            <input type="text" id="urlText"></input>
+            <label for="linkText">URL</label>
+            <input type="text" id="linkText"></input>
+            <button onclick="galerka.pridej()">přidej</button>
+            <label for="check">prezentace</label>
+            <p id="test"></p>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
